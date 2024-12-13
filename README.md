@@ -51,7 +51,7 @@ docker -v
 docker-compose -v
 ```
 
-Now create the docker compose yml [my example]() and run it using below command.
+Now create the ([docker-compose.yml](https://github.com/gobinda1547/MyBookmark/commit/d62e5edb34b65a6643e9586d36843d94dd1fa91a)) and run it using below command.
 ```
 docker compose up dev-db -d
 ```
