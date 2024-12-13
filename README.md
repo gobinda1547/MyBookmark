@@ -3,24 +3,18 @@ Nest.js website
 
 ## Step by step guide
 
-Install Node first from the node website.
-
-Check node version
+#### Install Node first from the node website then verify.
 ```
 node -v
 ```
 
-Install nest js
+#### Install nest js and verify
 ```
 sudo npm i -g @nestjs/cli
-```
-
-Check nest version
-```
 nest -v
 ```
 
-Create a nest js project with <b>yarn</b> package manager
+#### Create nest js project with yarn package manager
 ```
 npm new project-name
 ```
