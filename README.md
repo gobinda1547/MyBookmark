@@ -24,7 +24,14 @@ npm new project-name
 yarn start:dev
 ```
 
-
+#### Create a module with service and controller
+Commands will automatically import the module name in the main app module.</br>
+Some test file will be generated - but we will not needed them for now.
+```
+nest g module auth
+nest g controller auth
+nest g provider auth
+```
 
 
 
