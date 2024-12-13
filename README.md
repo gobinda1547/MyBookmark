@@ -33,11 +33,13 @@ nest g controller auth
 nest g provider auth
 ```
 
+#### Test sample endpoints
+Here I have written 2 [sample](https://github.com/gobinda1547/MyBookmark/commit/0f3c239877a9b4b88b9613f2582eec520c541775) endpoints. (auth/signup & auth/signin)
 
-
-
+Now run the server by using yarn and test both post request by using 'insomnia' app.
 ```
-
+http://localhost:3333/auth/signup
+http://localhost:3333/auth/signin
 ```
 
 
