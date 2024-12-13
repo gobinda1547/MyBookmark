@@ -19,19 +19,9 @@ nest -v
 npm new project-name
 ```
 
-
-
-
-
-
-
-
-
-
-
-
+#### Run the project to check if it's working or not
 ```
-
+yarn start:dev
 ```
 
 
