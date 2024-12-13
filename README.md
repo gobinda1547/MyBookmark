@@ -42,14 +42,20 @@ http://localhost:3333/auth/signup
 http://localhost:3333/auth/signin
 ```
 
+## Install a database via docker
 
-
-
-
-
+#### Check if we have docker and docker-compose already
+If you don't have docker already, then install it from server
+```
+docker -v
+docker-compose -v
 ```
 
+Now create the docker compose yml [my example]() and run it using below command.
 ```
+docker compose up dev-db -d
+```
+According to my docker-compose.yml file, the above command wil run a database, named 'dev-db' inside a container with postgres image. You can check the log or the container via docker desktop application. First time the postgres image will be unavailable, but docker compose will take care of that.
 
 
 
